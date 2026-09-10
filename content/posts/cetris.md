@@ -6,8 +6,6 @@ title = 'Cetris'
 
 ![Screenshot from Cetris](/img/cetris/cetris.png)
 
-## The Project
-
 **[Cetris](https://gitlab.com/den.ege.der/cetris)** is a Tetris implementation written in C. 
 The project introduced me to several interesting challenges, including piece rotation, collision 
 detection, terminal rendering, and randomization. Piece rotation follows the Super Rotation 
