@@ -3,6 +3,11 @@ locale: en-us
 title: Portfolio
 theme: ["PaperMod"]
 
+params:
+  homeInfoParams:
+    Title: Project Portfolio Blog
+    Content: Blog as a portfolio of my technical projects.
+
 menu:
   main:
     - name: About
