@@ -1,4 +1,19 @@
 baseURL: https://example.org/
 locale: en-us
-title: My New Hugo Project
+title: Portfolio
 theme: ["PaperMod"]
+
+menu:
+  main:
+    - name: About
+      url: about
+      weight: 1
+    - name: Search
+      url: search/
+      weight: 2
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
