@@ -1,0 +1,16 @@
+# Hugo's output directory
+public/
+resources/
+
+# Temporary files
+.hugo_build.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*~
