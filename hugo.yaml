@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: https://degd.github.io/portfolioblog/
 locale: en-us
 title: Portfolio
 theme: ["PaperMod"]
