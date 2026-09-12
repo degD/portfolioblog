@@ -4,7 +4,7 @@ draft = false
 title = 'Cetris'
 +++
 
-![Screenshot from Cetris](/img/cetris/cetris.png)
+![Screenshot from Cetris](cetris.png)
 
 **[Cetris](https://gitlab.com/den.ege.der/cetris)** is a Tetris implementation written in C. 
 The project introduced me to several interesting challenges, including piece rotation, collision 
@@ -109,4 +109,4 @@ int main(void)
 }
 ```
 
-![Color Matrix](/img/cetris/color-matrix.png)
+![Color Matrix](color-matrix.png)

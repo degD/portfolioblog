@@ -27,4 +27,4 @@ sourced from [this recording](https://freesound.org/people/gherat/sounds/139653)
 
 ## App Images
 
-![YAM light and dark modes](/img/yam/lightdark.png)
+![YAM light and dark modes](lightdark.png)

@@ -20,8 +20,8 @@ stored data can be read and rewritten through the same interface. Connect the
 Arduino to the chip as shown in the image, then run the code below. The I2C 
 address and Arduino pins may need to be adjusted for the specific chip and hardware.
 
-![Arduino wire connections](/img/ricoh/arduino.png)
-![Chip wire connections](/img/ricoh/chip.png)
+![Arduino wire connections](arduino.png)
+![Chip wire connections](chip.png)
 
 ```c
 // Update EEPROM_I2C_ADDRESS define value with the chip you want to reprogram

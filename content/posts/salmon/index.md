@@ -4,7 +4,7 @@ draft: false
 title: 'Salmon Tuner'
 ---
 
-![Salmon Screenshot](/img/salmon/salmonr.png)
+![Salmon Screenshot](salmonr.png)
 
 The motivation for this project stems from the lack of polished open source tuner apps. 
 Existing open source tools lack the polished interface and intuitive interaction design 
@@ -22,7 +22,7 @@ open source implementation using modern Android development practices. You can
 
 ## Phase 1: UI/UX Architecture
 
-![Salmon Demo Screenshot](/img/salmon/salmon-demo.png)
+![Salmon Demo Screenshot](salmon-demo.png)
 
 The interface was developed using **Jetpack Compose**, focusing on a state-driven 
 architecture to ensure the UI remains synchronized with the audio input. The 

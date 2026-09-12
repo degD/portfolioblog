@@ -27,7 +27,7 @@ Check the [source code](https://gitlab.com/den.ege.der/perceptron-v2).
 
 ## Pipeline
 
-![Pipeline overview](/img/perceptron/pipeline.png)
+![Pipeline overview](pipeline.png)
 
 ## Model
 
@@ -42,23 +42,23 @@ The model's convergence was tested across various initial parameter.
 
 **Random Initialization**
 
-![Random init](/img/perceptron/random.png)
+![Random init](random.png)
 
 **Initial Parameters: 0**
 
-![Init 0](/img/perceptron/init0.png)
+![Init 0](init0.png)
 
 **Initial Parameters: 0.001**
 
-![Init 0.001](/img/perceptron/init0.001.png)
+![Init 0.001](init0.001.png)
 
 **Initial Parameters: 0.1**
 
-![Init 0.1](/img/perceptron/init0.1.png)
+![Init 0.1](init0.1.png)
 
 **Initial Parameters: 0.5**
 
-![Init 0.5](/img/perceptron/init0.5.png)
+![Init 0.5](init0.5.png)
 
 Adam proved the most efficient in terms of both iterations and runtime. While GD frequently stalled 
 in local minima, SGD and Adam successfully bypassed them. SGD through stochastic sampling and Adam 
@@ -71,14 +71,14 @@ all methods converged prematurely on the first step.
 Models were evaluated on the held-out test set using random initialization, a 1,000-iteration 
 limit, and `EPS = 0.05`.
 
-![Test results](/img/perceptron/results.png)
+![Test results](results.png)
 
 To visualize the high-dimensional parameter space (1,000+ dimensions), the data was first reduced 
 to 50 dimensions via PCA, and then to 2 dimensions using t-SNE. The plot below shows SGD training 
 from 5 different starting points (1500 iterations, EPS = 0.01), generated with `plotly`, 
 `scikit-learn`, and `numpy`.
 
-![t-SNE plot](/img/perceptron/tsne.png)
+![t-SNE plot](tsne.png)
 
 | ID | Initial Value | Color |
 |----|---------------|-------|
